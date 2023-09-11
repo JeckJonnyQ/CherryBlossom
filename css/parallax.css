@@ -1,0 +1,79 @@
+.main {
+  background: url("../images/BackGroundMainLeft.png") no-repeat top 0px left 0px, url("../images/BackGroundMainRight.png") no-repeat top 0px right 0px, url("../images/BackGroundMain.png") no-repeat;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.25);
+}
+.main .main-block-content {
+  padding: 272px 0px 194px;
+}
+.main .main-block-content h1 {
+  margin: 0px auto;
+  text-align: center;
+  text-shadow: 3px 3px 14px rgba(137, 137, 137, 0.4);
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 122%;
+  letter-spacing: -4.5px;
+  text-transform: uppercase;
+  color: #FFF;
+}
+.main .main-block-content p {
+  margin: 0 auto;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+  font-size: 32px;
+  line-height: 122%;
+  letter-spacing: -1.44px;
+}
+.main .main-block-content .button-view {
+  margin: 22px auto 0px;
+  width: 236px;
+  height: 64px;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  color: #665F5F;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 124.182%;
+}
+.main .main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 124%;
+}
+.main .main-wrapper .main-wrapper-first {
+  margin: 20px 0px 15px;
+  position: relative;
+}
+.main .main-wrapper .main-wrapper-first::after {
+  position: absolute;
+  content: "";
+  background: url("../images/Car.svg") no-repeat;
+  width: 82px;
+  height: 57px;
+  right: -100px;
+  top: 0px;
+}
+.main .main-wrapper .main-wrapper-second {
+  margin: 20px 100px 15px 0px;
+  position: relative;
+}
+.main .main-wrapper .main-wrapper-second::after {
+  position: absolute;
+  content: "";
+  background: url("../images/Cart.svg") no-repeat;
+  width: 74px;
+  height: 56px;
+  right: -95px;
+  top: 0px;
+}
+.main .main-wrapper .main-wrapper-content {
+  font-size: 16px;
+  font-weight: 400;
+}/*# sourceMappingURL=parallax.css.map */

@@ -1,0 +1,139 @@
+.collections .container .collections-links {
+  margin: 40px 0px 0px 0px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 124%;
+  text-align: start;
+}
+.collections .container h2 {
+  margin: 55px 0px 30px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 124%;
+  text-transform: uppercase;
+}
+.collections .container .collections-wrapper-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 366px 366px 366px;
+  grid-template-rows: 340px 340px 340px 340px;
+  gap: 40px;
+  margin-bottom: 50px;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 14px rgba(137, 137, 137, 0.4);
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.collections .container .collections-wrapper-grid .collections-block {
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+.collections .container .collections-wrapper-grid .collections-block .collections-block-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.4);
+  transition: background-color 1s ease;
+}
+.collections .container .collections-wrapper-grid .collections-block p {
+  position: relative;
+  max-width: 303px;
+}
+.collections .container .collections-wrapper-grid .collections-block:hover {
+  transform: scale(1.1);
+}
+.collections .container .collections-wrapper-grid .collections-block:hover .collections-block-background {
+  background-color: rgba(255, 255, 255, 0);
+}
+.collections .container .collections-wrapper-grid .birthday {
+  background: url("../images/Birthday.png") no-repeat center;
+  background-size: cover;
+}
+.collections .container .collections-wrapper-grid .wedding {
+  background: url("../images/Wedding.png") no-repeat center;
+  background-size: cover;
+}
+.collections .container .collections-wrapper-grid .anniversary {
+  background: url("../images/Anniversary.png") no-repeat center;
+  background-size: cover;
+}
+.collections .container .collections-wrapper-grid .new-baby {
+  background: url("../images/NewBaby.png") no-repeat center;
+  background-size: cover;
+}
+.collections .container .collections-wrapper-grid .luxury {
+  background: url("../images/Luxary.png") no-repeat center;
+  background-size: cover;
+}
+.collections .container .collections-wrapper-grid .graduation {
+  background: url("../images/Graduation.png") no-repeat center;
+  background-size: cover;
+}
+.collections .container .collections-wrapper-grid .new-year {
+  background: url("../images/NewYear.png") no-repeat center;
+  background-size: cover;
+}
+.collections .container .collections-wrapper-grid .valentines-day {
+  background: url("../images/ValentinesDay.png") no-repeat center;
+  background-size: cover;
+}
+.collections .container .collections-wrapper-grid .sympathy {
+  background: url("../images/Sympathy.png") no-repeat center;
+  background-size: cover;
+}
+.collections .container .collections-wrapper-grid .love-and-romance {
+  background: url("../images/LoveAndRomance.png") no-repeat center;
+  background-size: cover;
+}
+.collections .container .collections-wrapper-grid .thank-you {
+  background: url("../images/ThankYou.png") no-repeat center;
+  background-size: cover;
+}
+.collections .container .collections-wrapper-grid .toys {
+  background: url("../images/Toys.png") no-repeat center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .collections .container {
+    width: 755px;
+  }
+  .collections .container h2 {
+    margin: 25px 0px 15px;
+    font-size: 56px;
+  }
+  .collections .container .collections-wrapper-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 366px);
+    gap: 20px;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 755px) {
+  .collections .container {
+    width: 320px;
+  }
+  .collections .container .collections-links {
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+  }
+  .collections .container h2 {
+    margin: 15px 0px 15px;
+    font-size: 24px;
+  }
+  .collections .container .collections-wrapper-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 310px);
+    gap: 15px;
+  }
+  .collections .container .collections-wrapper-grid .collections-block:hover {
+    transform: scale(1.05);
+  }
+}/*# sourceMappingURL=collectionsPage.css.map */

@@ -1,0 +1,91 @@
+.about-us {
+    .container {
+        .about-us-block {
+            .about-us-links {
+                margin: 40px 0px 0px 0px;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 124%;
+                text-align: start;
+            }
+
+            h3 {
+                margin: 42px 0px 33px;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 124%;
+                text-transform: uppercase;
+            }
+        }
+
+        .about-us-content {
+            p {
+                margin: 53px auto 53px;
+                font-family: "Montserrat", sans-serif;
+                text-align: start;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 200%;
+            }
+        }
+    }
+
+    .background-img {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .about-us {
+        .container {
+            width: 755px;
+
+            .about-us-block {
+                .about-us-links {
+                    margin: 20px 0px 0px 0px;
+                }
+
+                h3 {
+                    margin: 25px 0px 15px;
+                }
+            }
+
+            .about-us-content {
+                p {
+                    margin: 20px auto 15px;
+                    line-height: 150%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .about-us {
+        .container {
+            width: 320px;
+
+            .about-us-block {
+                .about-us-links {
+                    margin: 20px 10px;
+                    font-size: 18px;
+                }
+
+                h3 {
+                    margin: 20px 0px 15px;
+                    font-size: 25px;
+                }
+            }
+
+            .about-us-content {
+                p {
+                    margin: 10px;
+                    font-size: 12px;
+                    line-height: 100%;
+                }
+            }
+        }
+    }
+}
